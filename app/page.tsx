@@ -1,7 +1,7 @@
 import { Hero } from "@/components/hero";
 import { Navigation } from "@/components/navigation";
 import { ThemeSwitcher } from "@/components/theme-switcher";
-
+// Helloo
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center">
