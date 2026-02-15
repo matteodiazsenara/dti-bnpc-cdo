@@ -18,7 +18,7 @@ export function Hero() {
           <div className="flex flex-col gap-6 flex-1">
             <div>
               <h2 className="text-3xl font-bold">
-                Cities and Municipality Monitoring index
+                Cities and Municipality Monitoring
               </h2>
               <p className="mt-2">
                 Monitor and track real-time data from cities and municipalities
