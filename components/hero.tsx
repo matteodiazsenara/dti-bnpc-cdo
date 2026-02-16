@@ -22,7 +22,7 @@ export function Hero() {
               </h2>
               <p className="mt-2">
                 Monitor and track real-time data from cities and municipalities
-                across the Philippines
+                across the Misamis Oriental
               </p>
             </div>
             <Link
