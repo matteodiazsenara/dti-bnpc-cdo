@@ -9,7 +9,10 @@ const Card = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "rounded-xl border bg-card text-card-foreground shadow",
+      // make cards a bit more translucent so they blend with the
+      // frosted glass auth-card when nested. keep a subtle border
+      // and drop-shadow for depth.
+      "rounded-xl border bg-white/50 dark:bg-black/50 text-card-foreground shadow-lg",
       className,
     )}
     {...props}

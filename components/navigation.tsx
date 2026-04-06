@@ -30,11 +30,11 @@ export function Navigation() {
             Data Portal
           </Link>
           <Link
-            href="#contact"
+            href="/auth/login"
             className="transition bg-primary flex text-white px-4 py-2 rounded-lg"
           >
             {/* <IconPhoneCall size={16} className="mr-1" /> */}
-            Contact
+            login
           </Link>
         </div>
 
